@@ -1,6 +1,6 @@
 {
   "name": "emit-file-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Webpack loader that emits a file during the loader chain.",
   "main": "index.js",
   "files": [
