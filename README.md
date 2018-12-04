@@ -11,7 +11,7 @@ To use this loader, add it to an existing chain like so:
   test: /\.scss$/,
   use: [
     { loader: 'css-loader' },
-    { loader: 'emit-raw-loader?output=dist/styles/[name].css' },
+    { loader: 'emit-file-loader?output=dist/styles/[name].css' },
     { loader: 'sass-loader' }
   ],
 }
